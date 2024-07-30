@@ -1,0 +1,8 @@
+prefix=/catkin_ws/Implicit-SDF-Planner/devel
+
+Name: utils
+Description: Description of utils
+Version: 0.0.0
+Cflags: -I/catkin_ws/Implicit-SDF-Planner/devel/include -I/catkin_ws/Implicit-SDF-Planner/src/utils/include
+Libs: -L${prefix}/lib -lutils
+Requires: nodelet roscpp rospy std_msgs message_runtime pcl_ros pcl_conversions

@@ -1,0 +1,8 @@
+prefix=/catkin_ws/Implicit-SDF-Planner/devel
+
+Name: uav_utils
+Description: Description of uav_utils
+Version: 0.0.0
+Cflags: -I/catkin_ws/Implicit-SDF-Planner/src/common/uav_utils/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

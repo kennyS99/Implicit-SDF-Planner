@@ -1,0 +1,8 @@
+prefix=/catkin_ws/Implicit-SDF-Planner/devel
+
+Name: traj_utils
+Description: Description of traj_utils
+Version: 0.0.0
+Cflags: -I/catkin_ws/Implicit-SDF-Planner/devel/include -I/catkin_ws/Implicit-SDF-Planner/src/common/traj_utils/include
+Libs: -L${prefix}/lib -ltraj_utils
+Requires: message_runtime
