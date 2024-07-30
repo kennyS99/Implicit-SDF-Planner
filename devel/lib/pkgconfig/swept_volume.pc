@@ -1,8 +1,0 @@
-prefix=/catkin_ws/Implicit-SDF-Planner/devel
-
-Name: swept_volume
-Description: Description of swept_volume
-Version: 0.0.0
-Cflags: -I/catkin_ws/Implicit-SDF-Planner/src/swept_volume/include
-Libs: -L${prefix}/lib -lswept_volume
-Requires: roscpp rospy std_msgs sensor_msgs visualization_msgs message_generation utils
