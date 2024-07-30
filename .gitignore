@@ -1,6 +1,8 @@
+!src/
 devel/
 build/
 logs/
+output.log
 # valgrind/
 *.catkin_workspace
 # *.txt
